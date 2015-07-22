@@ -1,0 +1,13 @@
+{
+    "name": "hazzard/encryption",
+    "require": {
+        "php": ">=5.3",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hazzard\\Encryption\\": "src/"
+        }
+    }
+}
